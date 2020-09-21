@@ -1,0 +1,56 @@
+.dialogs {
+    width: 100%;
+    max-width: 1040px;
+    height: auto;
+    background: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.messages {
+    width: 100%;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages div {
+    margin-left: 20px;
+    border: 1px solid white;
+    width: 500px;
+    line-height: 50px;
+    padding-left: 10px;
+    margin: 10px 20px;
+}
+.messages button {
+    width: 70px;
+    height: 40px;
+    margin-left: 20px;
+}
+.messages textarea {
+    margin-left: 20px;
+    width: 500px;
+    font-family: fantasy;
+    resize: none;
+    border-radius: 5px;
+}
+.dialogItems {
+    width: 400px;
+    max-width: 400px;
+    border: 1px solid white
+}
+.dialogItems a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 50px;
+}
+.dialogItems a:hover {
+    box-shadow: 1px 1px 10px white;
+}
+.dialogItems a li {
+    list-style: none;
+    line-height: 50px;
+    padding-left: 20px;
+}

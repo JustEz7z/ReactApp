@@ -1,0 +1,12 @@
+.profileInfo {
+    height: auto;
+    width: 100%;
+    margin: 10px;
+}
+.profileInfo img {
+    width: 350px;
+    height: 150px;
+}
+.avaDescription{
+    margin: 10px;
+}

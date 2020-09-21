@@ -1,0 +1,24 @@
+nav .navBar {
+    list-style: none;
+} 
+nav {
+    float: left;
+    width: 20%;
+    min-width: 20%;
+    background-color: blue;
+    height: auto;
+}
+.navBar a li {
+    font-weight: bold;
+    font-family: fantasy;
+    padding: 10px;
+}
+.navBar a {
+    text-decoration: none;
+    color: yellow;
+    display: block;
+}
+.navBar a:hover li {
+    box-shadow: 0 0 10px black;
+    padding: 10px 0 10px 20px;
+}

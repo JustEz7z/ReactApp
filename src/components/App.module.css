@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.mainWrapper {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+section {
+    float: right;
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    background-color: sandybrown;
+}
+
+.routeRow {
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}

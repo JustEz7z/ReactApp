@@ -1,0 +1,22 @@
+.postMessage {
+    display: flex;
+    width: 400px;
+    max-width: 600px;
+    padding: 15px;
+}
+.postMessage img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.messageAndLikes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.messageAndLikes p {
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+

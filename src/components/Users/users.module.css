@@ -1,0 +1,23 @@
+.flexBox {
+    width: 1000px;
+    display: flex;
+    margin: 20px 0 0 10px;
+}
+.flexBox img {
+    width: 75px;
+    height: 75px;
+}
+.location {
+    margin-left: auto;
+}
+.selected {
+    font-weight: bold;
+}
+.selectedBox span {
+    cursor: pointer;
+}
+.selectedBox {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}

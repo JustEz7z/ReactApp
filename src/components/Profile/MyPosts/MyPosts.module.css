@@ -1,0 +1,11 @@
+.profilePosts {
+    margin: 10px;
+}
+.profilePosts h3 {
+    margin: 5px 0 5px 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.profilePosts textarea {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    resize: none;
+}
